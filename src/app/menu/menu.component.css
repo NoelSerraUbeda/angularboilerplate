@@ -1,0 +1,42 @@
+.navbar {
+    justify-content: start;
+    margin-bottom: 1rem;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.navbar-menu {
+    background-color: rgb(94, 190, 15);
+    border: 5px white solid;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.navbar-menu a {
+    color: rgb(67, 77, 221);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 1.1rem;
+}
+
+.active {
+    background-color: white;
+}
+
+svg {
+    background-color: rgb(94, 190, 15);
+    border: 5px white solid;
+    border-radius: 0.5rem;
+    fill: rgb(67, 77, 221);
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 2.9rem;
+}
+
+svg:hover{
+    background-color: darkgreen;
+    fill: white;
+}
