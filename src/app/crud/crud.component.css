@@ -1,6 +1,12 @@
 .crud {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .crud {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

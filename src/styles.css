@@ -1,9 +1,25 @@
+:root {
+  --primary-color: rgb(94, 190, 15);
+  --secondary-color: green;
+  --tertiary-color: darkgreen;
+  --accent-color: rgb(67, 77, 221);
+  --white-color: white;
+  --highlight-color: red;
+  --warning-color: orange;
+}
+
 * {
-    font-family: Arial;
+  font-family: Arial;
 }
 
 body {
-    background-color: rgb(67, 77, 221);
-    color: white;
-    overflow: hidden;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+  body {
+    overflow-y: scroll;
+  }
 }
